@@ -10,6 +10,8 @@ export default function Page() {
         <Link href="/week-4" className='text-2xl'>Week 4 Assignment</Link>
         <br />
         <Link href="/week-5" className='text-2xl'>Week 5 Assignment</Link>
+        <br />
+        <Link href="/week-6" className='text-2xl'>Week 6 Assignment</Link>
       </main>
     );
   }
