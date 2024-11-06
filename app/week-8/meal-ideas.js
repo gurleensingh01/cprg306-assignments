@@ -44,7 +44,7 @@ export default function MealIdeas({ingredient}) {
             <h1 className="font-bold text-3xl m-2 p-1 text-center">Meal Ideas</h1>
             {ingredient === "" ? (
                 <p>Choose an item to get some meal ideas.</p>
-            ) : !meals.length ? ( 
+            ) : !meals ? ( 
                 <p>No meal ideas found for {ingredient}.</p>
             ) : (
                 <ul>
